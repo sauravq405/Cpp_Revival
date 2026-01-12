@@ -5,6 +5,7 @@
  * * 
  * 1. Create build folder:  mkdir build 2>nul
  * 2. Compile:             g++ src/HelloWorld.cpp -o build/HelloWorld.exe
+ * OR                      g++ -static src/HelloWorld.cpp -o build/HelloWorld.exe (if above command fails)
  * 3. Run:                 build\HelloWorld.exe
  */
 
