@@ -1,0 +1,9 @@
+# Compiled Binaries
+*.exe
+*.o
+*.out
+
+# Folders
+build/
+output/
+.vscode/
