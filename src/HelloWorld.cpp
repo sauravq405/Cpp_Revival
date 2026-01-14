@@ -4,9 +4,12 @@
  * To compile and run this program from your Cpp_Revival root:
  * *
  * 1. Create build folder:  mkdir build 2>nul
- * 2. Compile:             g++ src/HelloWorld.cpp -o build/HelloWorld.exe
- * OR                      g++ -static src/HelloWorld.cpp -o build/HelloWorld.exe (if above command fails)
- * 3. Run:                 build\HelloWorld.exe
+ * 2. Compile:             Windows: g++ src/HelloWorld.cpp -o build/HelloWorld.exe
+ *                         MAC: g++ src/HelloWorld.cpp -o build/HelloWorld
+ * OR                      Windows: g++ -static src/HelloWorld.cpp -o build/HelloWorld.exe (if above command fails)
+ *                         MAC: g++ -static src/HelloWorld.cpp -o build/HelloWorld
+ * 3. Run:                 Windows: build\HelloWorld.exe 
+ *                         MAC:         build/HelloWorld
  */
 
 int main()
