@@ -41,6 +41,9 @@ int main(){
 
     //strings (objects that represents a sequence of texts)
     std::string name = "sauravq405";
+    std::string day = "Friday";
+    std::string food = "Pizza";
+    std::string address = "123, Fake street";
 
     std::cout << name << '\n'; 
 
