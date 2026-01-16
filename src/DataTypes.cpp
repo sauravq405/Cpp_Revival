@@ -47,6 +47,8 @@ int main(){
 
     std::cout << name << '\n'; 
 
+    std::cout << "Hello " << name << '\n'; //Printing a variable with string
+
 
     return 0;
 }

@@ -23,7 +23,7 @@ int main()
 
     std::cout << "I like pizza." << std::endl;
     std::cout << "They are awesome." << std::endl;
-    std::cout << "That's it!" << '\n'; //'\n' will work same as std::endl
+    std::cout << "That's it!" << '\n'; //'\n' will work same as std::endl and better in performance
 
     return 0;
 }
